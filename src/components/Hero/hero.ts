@@ -21,24 +21,17 @@ export const FormHero = styled.form`
     opacity: 0.7;
 
     @media (max-width: 768px) {
-      height: auto;
+      height: 87%;
       padding: 24px 0;
-
-      &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #a7727d;
-    content: '';
-    opacity: 0.7;
     }
   }
 `
 export const Div = styled.div`
   position: relative;
   color: #eee;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 `
 export const H2 = styled.h2`
   font-family: Gloock, serif;
